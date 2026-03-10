@@ -88,7 +88,7 @@ async def handle_slot(message: Message) -> None:
             f"🥳 Поздравляем, {user_link}!\n"
             f"Вы выбили <b>777</b> и выиграли "
             f"<b>{PRIZE_STARS} ⭐ звёзд</b>!\n\n"
-            f"Свяжитесь с администратором для получения приза."
+            f"Они поступят в тичении 15 минут."
         )
         await message.reply(congrats_text, parse_mode="HTML")
 
